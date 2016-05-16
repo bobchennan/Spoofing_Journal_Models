@@ -12,5 +12,11 @@ Dependency:
 
  * [Keras](https://github.com/fchollet/Keras)
  * [Python script for HTK format](http://www.cs.cmu.edu/~chanwook/MySoftware/rm1_Spk-by-Spk_MLLR/rm1_PNCC_MLLR_1/rm1/python/sphinx/htkmfc.py)
+ * [scikit-learn](https://github.com/scikit-learn/scikit-learn) for classification
+ * [HTK](http://htk.eng.cam.ac.uk/) for feature extraction
+
+Steps:
+ * You should first extract features using *HCopy* and fbank.cfg
+ * After that you can try BLSTM model and dnn model. Use *gzip -d* to decompress it.
 
 Currently it is under construction.
