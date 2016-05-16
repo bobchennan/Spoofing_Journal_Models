@@ -1,0 +1,322 @@
+Loading data...
+Starting training...
+Epoch 0 results:
+  train loss:			0.882364
+  test loss:			0.519304
+  test accuracy:		74.28 % *
+Epoch 1 results:
+  train loss:			0.539881
+  test loss:			0.423787
+  test accuracy:		77.33 % *
+Epoch 2 results:
+  train loss:			0.471031
+  test loss:			0.387116
+  test accuracy:		79.08 % *
+Epoch 3 results:
+  train loss:			0.433902
+  test loss:			0.354438
+  test accuracy:		80.32 % *
+Epoch 4 results:
+  train loss:			0.410377
+  test loss:			0.346743
+  test accuracy:		80.47 % *
+Epoch 5 results:
+  train loss:			0.392395
+  test loss:			0.333395
+  test accuracy:		81.12 % *
+Epoch 6 results:
+  train loss:			0.379315
+  test loss:			0.320427
+  test accuracy:		81.27 % *
+Epoch 7 results:
+  train loss:			0.368301
+  test loss:			0.309939
+  test accuracy:		82.10 % *
+Epoch 8 results:
+  train loss:			0.360175
+  test loss:			0.312035
+  test accuracy:		81.75 % -
+Epoch 9 results:
+  train loss:			0.352959
+  test loss:			0.306671
+  test accuracy:		82.00 % -
+Epoch 10 results:
+  train loss:			0.346584
+  test loss:			0.299645
+  test accuracy:		82.45 % *
+Epoch 11 results:
+  train loss:			0.341140
+  test loss:			0.302120
+  test accuracy:		82.68 % *
+Epoch 12 results:
+  train loss:			0.336325
+  test loss:			0.298568
+  test accuracy:		82.79 % *
+Epoch 13 results:
+  train loss:			0.331679
+  test loss:			0.295487
+  test accuracy:		82.27 % -
+Epoch 14 results:
+  train loss:			0.328431
+  test loss:			0.287951
+  test accuracy:		83.26 % *
+Epoch 15 results:
+  train loss:			0.324505
+  test loss:			0.285985
+  test accuracy:		83.28 % *
+Epoch 16 results:
+  train loss:			0.321192
+  test loss:			0.287153
+  test accuracy:		83.18 % -
+Epoch 17 results:
+  train loss:			0.318492
+  test loss:			0.280474
+  test accuracy:		83.32 % *
+Epoch 18 results:
+  train loss:			0.316189
+  test loss:			0.280410
+  test accuracy:		83.67 % *
+Epoch 19 results:
+  train loss:			0.313715
+  test loss:			0.282797
+  test accuracy:		83.47 % -
+Epoch 20 results:
+  train loss:			0.311543
+  test loss:			0.281161
+  test accuracy:		83.54 % -
+Epoch 21 results:
+  train loss:			0.308873
+  test loss:			0.280977
+  test accuracy:		83.50 % -
+Epoch 22 results:
+  train loss:			0.307666
+  test loss:			0.275977
+  test accuracy:		83.81 % *
+Epoch 23 results:
+  train loss:			0.304834
+  test loss:			0.277959
+  test accuracy:		83.53 % -
+Epoch 24 results:
+  train loss:			0.303316
+  test loss:			0.275698
+  test accuracy:		83.83 % *
+Epoch 25 results:
+  train loss:			0.301862
+  test loss:			0.272724
+  test accuracy:		83.95 % *
+Epoch 26 results:
+  train loss:			0.300885
+  test loss:			0.273779
+  test accuracy:		84.04 % *
+Epoch 27 results:
+  train loss:			0.298814
+  test loss:			0.270943
+  test accuracy:		83.83 % -
+Epoch 28 results:
+  train loss:			0.297490
+  test loss:			0.271072
+  test accuracy:		83.97 % -
+Epoch 29 results:
+  train loss:			0.296806
+  test loss:			0.271526
+  test accuracy:		84.11 % *
+Epoch 30 results:
+  train loss:			0.295281
+  test loss:			0.271129
+  test accuracy:		84.11 % -
+Epoch 31 results:
+  train loss:			0.294377
+  test loss:			0.268228
+  test accuracy:		84.33 % *
+Epoch 32 results:
+  train loss:			0.293093
+  test loss:			0.270706
+  test accuracy:		84.14 % -
+Epoch 33 results:
+  train loss:			0.291652
+  test loss:			0.270271
+  test accuracy:		84.07 % -
+Epoch 34 results:
+  train loss:			0.290942
+  test loss:			0.268950
+  test accuracy:		84.17 % -
+Epoch 35 results:
+  train loss:			0.289627
+  test loss:			0.268029
+  test accuracy:		84.25 % -
+Epoch 36 results:
+  train loss:			0.288544
+  test loss:			0.266408
+  test accuracy:		84.42 % *
+Epoch 37 results:
+  train loss:			0.287678
+  test loss:			0.269236
+  test accuracy:		84.22 % -
+Epoch 38 results:
+  train loss:			0.287591
+  test loss:			0.267270
+  test accuracy:		84.28 % -
+Epoch 39 results:
+  train loss:			0.285985
+  test loss:			0.264480
+  test accuracy:		84.37 % -
+Epoch 40 results:
+  train loss:			0.285830
+  test loss:			0.267298
+  test accuracy:		84.20 % -
+Epoch 41 results:
+  train loss:			0.284875
+  test loss:			0.266612
+  test accuracy:		84.35 % -
+Epoch 42 results:
+  train loss:			0.283841
+  test loss:			0.265499
+  test accuracy:		84.45 % *
+Epoch 43 results:
+  train loss:			0.283078
+  test loss:			0.264712
+  test accuracy:		84.41 % -
+Epoch 44 results:
+  train loss:			0.282304
+  test loss:			0.265234
+  test accuracy:		84.22 % -
+Epoch 45 results:
+  train loss:			0.281510
+  test loss:			0.264774
+  test accuracy:		84.51 % *
+Epoch 46 results:
+  train loss:			0.281017
+  test loss:			0.263470
+  test accuracy:		84.65 % *
+Epoch 47 results:
+  train loss:			0.280089
+  test loss:			0.262035
+  test accuracy:		84.61 % -
+Epoch 48 results:
+  train loss:			0.279275
+  test loss:			0.266975
+  test accuracy:		84.41 % -
+Epoch 49 results:
+  train loss:			0.279375
+  test loss:			0.261309
+  test accuracy:		84.63 % -
+Epoch 50 results:
+  train loss:			0.278621
+  test loss:			0.263891
+  test accuracy:		84.49 % -
+Epoch 51 results:
+  train loss:			0.276990
+  test loss:			0.261294
+  test accuracy:		84.68 % *
+Epoch 52 results:
+  train loss:			0.277457
+  test loss:			0.261784
+  test accuracy:		84.55 % -
+Epoch 53 results:
+  train loss:			0.277347
+  test loss:			0.261789
+  test accuracy:		84.50 % -
+Epoch 54 results:
+  train loss:			0.276178
+  test loss:			0.262105
+  test accuracy:		84.51 % -
+Epoch 55 results:
+  train loss:			0.275678
+  test loss:			0.260873
+  test accuracy:		84.43 % -
+Epoch 56 results:
+  train loss:			0.275703
+  test loss:			0.261824
+  test accuracy:		84.62 % -
+Epoch 57 results:
+  train loss:			0.275783
+  test loss:			0.259403
+  test accuracy:		84.79 % *
+Epoch 58 results:
+  train loss:			0.274414
+  test loss:			0.260846
+  test accuracy:		84.58 % -
+Epoch 59 results:
+  train loss:			0.274056
+  test loss:			0.262226
+  test accuracy:		84.62 % -
+Epoch 60 results:
+  train loss:			0.273613
+  test loss:			0.262044
+  test accuracy:		84.55 % -
+Epoch 61 results:
+  train loss:			0.272931
+  test loss:			0.261124
+  test accuracy:		84.73 % -
+Epoch 62 results:
+  train loss:			0.272596
+  test loss:			0.262778
+  test accuracy:		84.62 % -
+Epoch 63 results:
+  train loss:			0.272372
+  test loss:			0.261917
+  test accuracy:		84.61 % -
+Epoch 64 results:
+  train loss:			0.271752
+  test loss:			0.260688
+  test accuracy:		84.56 % -
+Epoch 65 results:
+  train loss:			0.271127
+  test loss:			0.259676
+  test accuracy:		84.75 % -
+Epoch 66 results:
+  train loss:			0.270508
+  test loss:			0.260329
+  test accuracy:		84.61 % -
+Epoch 67 results:
+  train loss:			0.271095
+  test loss:			0.261514
+  test accuracy:		84.55 % -
+Epoch 68 results:
+  train loss:			0.269724
+  test loss:			0.257347
+  test accuracy:		84.79 % -
+Epoch 69 results:
+  train loss:			0.269616
+  test loss:			0.261261
+  test accuracy:		84.55 % -
+Epoch 70 results:
+  train loss:			0.269076
+  test loss:			0.259585
+  test accuracy:		84.78 % -
+Epoch 71 results:
+  train loss:			0.269650
+  test loss:			0.261256
+  test accuracy:		84.55 % -
+Epoch 72 results:
+  train loss:			0.269001
+  test loss:			0.260290
+  test accuracy:		84.58 % -
+Epoch 73 results:
+  train loss:			0.268059
+  test loss:			0.261631
+  test accuracy:		84.62 % -
+Epoch 74 results:
+  train loss:			0.268844
+  test loss:			0.258259
+  test accuracy:		84.80 % *
+Epoch 75 results:
+  train loss:			0.267687
+  test loss:			0.256715
+  test accuracy:		84.79 % -
+Epoch 76 results:
+  train loss:			0.266866
+  test loss:			0.260970
+  test accuracy:		84.56 % -
+Epoch 77 results:
+  train loss:			0.266746
+  test loss:			0.259257
+  test accuracy:		84.81 % *
+Epoch 78 results:
+  train loss:			0.266885
+  test loss:			0.257823
+  test accuracy:		84.86 % *
+Epoch 79 results:
+  train loss:			0.266230
+  test loss:			0.258054
+  test accuracy:		84.88 % *
