@@ -1,12 +1,3 @@
-#!/usr/bin/env python
-
-"""
-Lasagne implementation of CIFAR-10 examples from "Deep Residual Learning for Image Recognition" (http://arxiv.org/abs/1512.03385)
-
-With n=5, i.e. 32-layer network from the paper, this achieves a validation error of 6.88% (vs 7.51% in the paper).
-The accuracy has not yet been tested for the other values of n.
-"""
-
 from __future__ import print_function
 
 import sys
@@ -134,7 +125,7 @@ def iterate_minibatches(inputs, targets, batchsize, shuffle=False, augment=False
 
 # ############################## Main program ################################
 
-def main(n=5, num_epochs=9):
+def main(num_epochs=9):
     model = Graph()
     model.add_input(name='input', input_shape=(None,FEATURE_DIM))
     model.add_node(Masking(0.0),name='mask',input='input')
@@ -209,26 +200,13 @@ def main(n=5, num_epochs=9):
         print("Epoch "+str(epoch)+" results:")
         print("  test accuracy:\t\t{:.2f} % {:s}".format(
             1.0 * test_acc / test_batches * 100,ch))
-    # dump the network weights to a file :
-    #
-    # And load them again later on like this:
-    # with np.load('cifar10_deep_residual_model.npz') as f:
-    #     param_values = [f['arr_%d' % i] for i in range(len(f.files))]
-    # lasagne.layers.set_all_param_values(network, param_values)
-
 
 if __name__ == '__main__':
     if ('--help' in sys.argv) or ('-h' in sys.argv):
-        print("Trains a Deep Residual Learning network on cifar-10 using Lasagne.")
-        print("Network architecture and training parameters are as in section 4.2 in 'Deep Residual Learning for Image Recognition'.")
-        print("Usage: %s [N [EPOCHS]]" % sys.argv[0])
-        print()
-        print("N: Number of stacked residual building blocks per feature map (default: 5)")
-        print("EPOCHS: number of training epochs to perform (default: 82)")
+        print("Usage: %s [EPOCHS]" % sys.argv[0])
+        print("EPOCHS: number of training epochs to perform (default: 9)")
     else:
         kwargs = {}
         if len(sys.argv) > 1:
-            kwargs['n'] = int(sys.argv[1])
-        if len(sys.argv) > 2:
-            kwargs['num_epochs'] = int(sys.argv[3])
+            kwargs['num_epochs'] = int(sys.argv[2])
         main(**kwargs)
