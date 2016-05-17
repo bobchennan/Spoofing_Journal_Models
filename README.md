@@ -18,7 +18,7 @@ Dependency:
 Steps:
  * You should first extract features using *HCopy* and fbank.cfg
  * After that you can try BLSTM model and dnn model. Use *gzip -d* to decompress it.
- * Decoding command: python decode_*.py <decompressed model_file> <scp_file>
+ * Decoding command: python decode_*.py \<decompressed model_file\> \<scp_file\>
 
 Format for scp file:
 
