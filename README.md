@@ -19,6 +19,7 @@ Steps:
  * You should first extract features using *HCopy* and fbank.cfg
  * After that you can try BLSTM model and dnn model. Use *gzip -d* to decompress it.
  * Decoding command: python decode_*.py \<decompressed model_file\> \<scp_file\>
+ * Classify command: python \<classifier.py\> \<training_set\> \<cv_set\> \<development_set\> \<test_set\>
 
 Format for scp file:
 
