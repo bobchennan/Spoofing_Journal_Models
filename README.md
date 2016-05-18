@@ -10,7 +10,7 @@ We included two best models: DNN model and RNN model.
 
 Dependency:
 
- * [Keras](https://github.com/fchollet/Keras)
+ * [Keras==0.3.3](https://github.com/fchollet/Keras)
  * [Python script for HTK format](http://www.cs.cmu.edu/~chanwook/MySoftware/rm1_Spk-by-Spk_MLLR/rm1_PNCC_MLLR_1/rm1/python/sphinx/htkmfc.py)
  * [scikit-learn](https://github.com/scikit-learn/scikit-learn) for classification
  * [HTK](http://htk.eng.cam.ac.uk/) for feature extraction
