@@ -31,4 +31,16 @@ Format for feature file using for different classifiers(at least required for tr
 
 >label x\_1 x\_2 ... x\_n
 
+## Results
+
+|     Model     |   Classifier  |  S1  |  S2  |  S3  |  S4  |  S5  |  S6  |  S7  |  S8  |  S9  |  S10 |
+| ------------- | ------------- |------|------|------|------|------|------|------|------|------|------|
+|      DNN      |      LDA      |
+|      DNN      |      GDF      |
+|      DNN      |      SVM      |
+|      DNN      |  OneClassSVM  |
+|     BLSTM     |      LDA      |
+|     BLSTM     |      GDF      |
+|     BLSTM     |      SVM      |
+|     BLSTM     |  OneClassSVM  |
 Currently it is under construction.
