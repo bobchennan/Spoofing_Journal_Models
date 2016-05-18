@@ -27,4 +27,8 @@ Format for scp file:
 
 >[start,end] is optional
 
+Format for feature file using for different classifiers(at least required for training set):
+
+>label x\_1 x\_2 ... x\_n
+
 Currently it is under construction.
