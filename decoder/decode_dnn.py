@@ -52,8 +52,8 @@ layer_idx=-9
 with open(sys.argv[1], "rb") as f:
     norm = cPickle.load(f)
     model = cPickle.load(f)#.replace('"activation": "sigmoid"','"activation": "linear"')
-    model = model_from_json(model)
-    model.load_weights('sigmoid.h5') 
+  #  model = model_from_json(model)
+  #  model.load_weights('sigmoid.h5') 
 if type(model)==Sequential:
     warning("totally "+str(len(model.layers))+" layers"+" used "+str(layer_idx)+"th")
 output=K.function([model.layers[0].input],
